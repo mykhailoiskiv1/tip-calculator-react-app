@@ -1,12 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header/Header';
+import Home from './pages/Home';
+import { TipProvider } from './context/TipContext'; 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <TipProvider>
+      <div className="App">
+        <Header />
+        <Home />
+      </div>
+    </TipProvider>
   );
-}
+};
 
 export default App;

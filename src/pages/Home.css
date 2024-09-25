@@ -1,0 +1,12 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    width: 700px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}

@@ -1,0 +1,76 @@
+.calculator-box {
+    height: 100%;
+    width: 55%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+}
+
+.icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.bill-input,
+.people-input {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 20px;
+    color: var(--input-text-color);
+    border: 0;
+    background-color: var(--input-bg-color);
+}
+
+.select-tip-btns-wraper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.custom-tip {
+    height: 36px;
+    width: 86px;
+    border: 0;
+    background-color: var(--input-bg-color);
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.bill-sum-box,
+.numb-people-box {
+    width: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

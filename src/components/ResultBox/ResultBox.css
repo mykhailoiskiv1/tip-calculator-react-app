@@ -1,0 +1,49 @@
+.sum-box {
+    background-color: var(--sum-box-bg-color);
+    margin-left: 20px;
+    border-radius: 18px;
+    padding: 0 40px 0px 40px;
+    width: 45%;
+    height: 100%;
+    color: var(--sum-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tip-amount-row {
+    margin-top: 20px;
+}
+
+.tip-amount-row,
+.total-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-sum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tip-amount,
+.total-amount {
+    font-size: 45px;
+    color: var(--tip-amount-color);
+    font-weight: 700;
+}
+
+.reset-btn {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: var(--reset-btn-bg-color);
+    color: var(--reset-btn-text-color);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

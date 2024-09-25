@@ -1,0 +1,13 @@
+.tip-btn {
+    height: 40px;
+    width: 90px;
+    border: 0;
+    color: var(--custom-tip-bg-color);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--tip-btn-bg-color);
+}
+
+.tip-btn:hover {
+    background-color: var(--tip-btn-hover-color);
+}

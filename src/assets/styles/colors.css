@@ -1,0 +1,18 @@
+:root {
+    --bg-color: rgb(180, 255, 255);
+    --container-bg-color: rgb(249, 252, 255);
+    --title-color: rgb(91, 165, 165);
+    --text-color: rgb(110, 110, 110);
+    --border-color: rgb(38, 108, 136);
+    --input-bg-color: rgb(230, 243, 255);
+    --input-text-color: rgb(155, 155, 155);
+    --tip-btn-bg-color: rgb(38, 108, 136);
+    --tip-btn-hover-color: rgb(70, 145, 175);
+    --custom-tip-bg-color: aliceblue;
+    --sum-box-bg-color: rgb(38, 108, 136);
+    --sum-text-color: white;
+    --tip-amount-color: rgb(87, 223, 143);
+    --title-sum-color: rgb(177, 177, 177);
+    --reset-btn-bg-color: rgb(196, 238, 255);
+    --reset-btn-text-color: rgb(38, 108, 136);
+}
