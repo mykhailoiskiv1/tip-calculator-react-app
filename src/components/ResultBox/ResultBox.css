@@ -47,3 +47,10 @@
     cursor: pointer;
     margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    .sum-box {
+        width: 80%;
+        margin-left: 0px;
+    }
+}

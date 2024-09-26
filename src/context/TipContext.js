@@ -5,7 +5,7 @@ export const TipContext = createContext();
 export const TipProvider = ({ children }) => {
     const [bill, setBill] = useState('');
     const [tip, setTip] = useState('');
-    const [people, setPeople] = useState('');
+    const [people, setPeople] = useState('1');
     const [errorMessage, setErrorMessage] = useState('');
 
     const value = useMemo(() => ({

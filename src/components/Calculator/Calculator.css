@@ -74,3 +74,10 @@ input[type="number"] {
     -moz-appearance: textfield;
     appearance: textfield;
 }
+
+@media (max-width: 767px) {
+    .calculator-box {
+        width: 80%;
+        margin-left: 0px;
+    }
+}
